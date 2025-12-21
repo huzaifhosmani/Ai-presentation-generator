@@ -1,0 +1,5 @@
+{
+  "name": "AI Presentation Generator",
+  "description": "An AI-powered tool to generate and customize presentations on any topic. Edit content live and export to a .pptx file with beautiful, pre-designed slide styles.",
+  "requestFramePermissions": []
+}

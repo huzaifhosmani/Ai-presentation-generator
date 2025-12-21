@@ -1,0 +1,139 @@
+================================================================================
+AI PRESENTATION GENERATOR - SETUP AND RUN COMMANDS
+================================================================================
+
+PROJECT OVERVIEW:
+This is an AI-powered presentation generator built with React, Vite, and Google's Gemini AI.
+It allows users to create professional PowerPoint presentations using AI.
+
+================================================================================
+PREREQUISITES:
+================================================================================
+- Node.js (version 18 or higher recommended)
+- npm (comes with Node.js)
+- A Gemini API key from Google AI Studio
+
+================================================================================
+STEP-BY-STEP SETUP COMMANDS:
+================================================================================
+
+Step 1: Navigate to the project directory
+------------------------------------------
+cd "d:\Working Project\freshpptgenerTOR"
+
+
+Step 2: Install all project dependencies
+------------------------------------------
+npm install
+
+Note: This will install:
+- React 19.2.0
+- React DOM 19.2.0
+- @google/genai (Gemini AI SDK)
+- pptxgenjs (PowerPoint generation library)
+- Vite (build tool)
+- TypeScript and other dev dependencies
+
+
+Step 3: Configure the Gemini API Key
+------------------------------------------
+echo GEMINI_API_KEY=YOUR_API_KEY_HERE | Out-File -FilePath .env.local -Encoding utf8
+
+Replace YOUR_API_KEY_HERE with your actual Gemini API key.
+
+Example:
+echo GEMINI_API_KEY=AIzaSyDYuIosp2dWZTVZVm6WdF89nvBT3WhxZcs | Out-File -FilePath .env.local -Encoding utf8
+
+
+Step 4: Run the development server
+------------------------------------------
+npm run dev
+
+This will start the Vite development server.
+The app will be available at: http://localhost:3000/
+
+
+================================================================================
+ADDITIONAL COMMANDS:
+================================================================================
+
+Build for production:
+---------------------
+npm run build
+
+This creates an optimized production build in the 'dist' folder.
+
+
+Preview production build:
+-------------------------
+npm run preview
+
+This serves the production build locally for testing.
+
+
+Stop the development server:
+-----------------------------
+Press Ctrl + C in the terminal where the server is running
+
+
+================================================================================
+QUICK START (All commands in sequence):
+================================================================================
+
+cd "d:\Working Project\freshpptgenerTOR"
+npm install
+echo GEMINI_API_KEY=YOUR_API_KEY_HERE | Out-File -FilePath .env.local -Encoding utf8
+npm run dev
+
+
+================================================================================
+TROUBLESHOOTING:
+================================================================================
+
+If you encounter port conflicts:
+- The app runs on port 3000 by default
+- If port 3000 is busy, Vite will automatically try the next available port
+
+If dependencies fail to install:
+- Make sure you have Node.js version 18 or higher
+- Try deleting node_modules folder and package-lock.json, then run npm install again
+
+If the API key doesn't work:
+- Verify your API key is correct
+- Make sure the .env.local file is in the root directory
+- Restart the development server after adding the API key
+
+
+================================================================================
+PROJECT STRUCTURE:
+================================================================================
+
+freshpptgenerTOR/
+├── .env.local              # Environment variables (API key)
+├── .gitignore              # Git ignore rules
+├── App.tsx                 # Main application component
+├── index.html              # HTML entry point
+├── index.tsx               # React entry point
+├── package.json            # Project dependencies and scripts
+├── tsconfig.json           # TypeScript configuration
+├── vite.config.ts          # Vite configuration
+├── types.ts                # TypeScript type definitions
+├── components/             # React components
+├── services/               # API and service files
+└── node_modules/           # Installed dependencies (created after npm install)
+
+
+================================================================================
+USEFUL LINKS:
+================================================================================
+
+- AI Studio App: https://ai.studio/apps/drive/1VJgTDK-h-f2aA8XMEN6L_-yGnGpxtve-
+- Local App: http://localhost:3000/
+- Vite Documentation: https://vitejs.dev/
+- React Documentation: https://react.dev/
+- Gemini API: https://ai.google.dev/
+
+
+================================================================================
+END OF COMMANDS
+================================================================================
