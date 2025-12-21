@@ -19,7 +19,7 @@ STEP-BY-STEP SETUP COMMANDS:
 
 Step 1: Navigate to the project directory
 ------------------------------------------
-cd "d:\Working Project\freshpptgenerTOR"
+cd "d:\freshpptgenerTOR"
 
 
 Step 2: Install all project dependencies
@@ -137,3 +137,4 @@ USEFUL LINKS:
 ================================================================================
 END OF COMMANDS
 ================================================================================
+
