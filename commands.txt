@@ -19,7 +19,7 @@ STEP-BY-STEP SETUP COMMANDS:
 
 Step 1: Navigate to the project directory
 ------------------------------------------
-cd "d:\freshpptgenerTOR"
+cd "d:\Working Project\freshpptgenerTOR"
 
 
 Step 2: Install all project dependencies
@@ -84,7 +84,7 @@ cd "d:\Working Project\freshpptgenerTOR"
 npm install
 echo GEMINI_API_KEY=YOUR_API_KEY_HERE | Out-File -FilePath .env.local -Encoding utf8
 npm run dev
-
+ak
 
 ================================================================================
 TROUBLESHOOTING:
@@ -137,4 +137,3 @@ USEFUL LINKS:
 ================================================================================
 END OF COMMANDS
 ================================================================================
-
